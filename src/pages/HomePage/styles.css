@@ -1,0 +1,36 @@
+.root {
+  width: 60%;
+  margin: auto;
+}
+
+.panel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.link {
+  position: absolute;
+  right: 24px;
+  top: 16px;
+}
+
+.spiner {
+  height: 100vh;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
